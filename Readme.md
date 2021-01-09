@@ -44,9 +44,16 @@ A web application was made using boostrap (frontend) and Flask (backend).
 
 Due to the large spectrum of possible values (89 years) and the imbalanced data, we decide that it was better to predict the decade of the release year.
 
+## Important information
+Due to the large size of our models, we couldn't commit them on github.
+The files are available on google drive at this address : https://drive.google.com/drive/folders/1myPw4c1HjXO-6X0bRc5VlSsArdSD2BJq?usp=sharing.
+Once downloaded on your computer add the file to the API folder.
+
+A file is also compressed in the .API/static/js fold. To use the api you'll need to unzip it.
+
 ## Getting started
 To use the web app :
-* Clone the project (due to a size limitation, unzip the model that are compressed into archive.zip and the data in static/js folder)
+* Clone the project (download also the models from the google drive link and unzip the file in .API/static/js)
 * Start the flask API with "python app.py" (or "python3 app.py" according to your version of python)
 * Go to [localhost:5000](http://localhost:5000 "localhost:5000") on your browser
 
