@@ -4,6 +4,13 @@
 * Théophile PUISEUX
 * Nieves RODRIGUEZ ALVAR
 
+## -- Important information --
+Due to the large size of our models, we couldn't commit them on github.
+The files are available on google drive at this address : https://drive.google.com/drive/folders/1myPw4c1HjXO-6X0bRc5VlSsArdSD2BJq?usp=sharing.
+Once downloaded on your computer add the file to the API folder.
+
+A file is also compressed in the .API/static/js fold. To use the api you'll need to unzip it.
+
 ## Projet goal
 The Million Song Dataset (MSD) is a freely-available collection of audio features and metadata for a million contemporary popular music tracks. 
 The purpose being to predict the release year of a song from audio features.
@@ -43,13 +50,6 @@ We then decided to do regression, considering the decade as a continuous value. 
 A web application was made using boostrap (frontend) and Flask (backend).
 
 Due to the large spectrum of possible values (89 years) and the imbalanced data, we decide that it was better to predict the decade of the release year.
-
-## Important information
-Due to the large size of our models, we couldn't commit them on github.
-The files are available on google drive at this address : https://drive.google.com/drive/folders/1myPw4c1HjXO-6X0bRc5VlSsArdSD2BJq?usp=sharing.
-Once downloaded on your computer add the file to the API folder.
-
-A file is also compressed in the .API/static/js fold. To use the api you'll need to unzip it.
 
 ## Getting started
 To use the web app :
